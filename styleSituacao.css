@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Raleway&display=swap');
+body{
+    background-color: rgba(0, 0, 0, 0.84);
+    font-family: 'raleway';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+}
+
+body header{
+    background-color: #CA7900;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 8rem; 
+}
+
+body header #leftHeader{
+    display: flex;
+    justify-content: flex-start;
+}
+
+body header #rightHeader{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+}
+
+body header a{
+    color: #f5f5f5;
+    size: 36px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    text-decoration: none;
+}
+body header #leftHeader a{
+    margin-right: 5rem
+}
+
+body main {
+    background-color: #CA7900;
+    color: #f5f5f5;
+    border-radius: 14px;
+    padding: 40px 87px 40px 87px;
+    margin-bottom: 10rem;
+}
+
+body #entrar{
+    background-color: #CA7900;
+    text-decoration: none;
+    color: #f5f5f5;
+    border-radius: 14px;
+    border: 7px solid white;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 10px 60px 10px 60px;
+}
